@@ -15,8 +15,8 @@ document.getElementById('button-login')
         // Step 4: Validate phone and pin
         // Not perfect way
         if (phoneNumber === '5' && pinNumber === '1234') {
-            console.log('You are logged in')
-            window.location.href = 'home.html'
+            console.log('You are logged in');
+            window.location.href = 'Payoo-MFS/home.html'
         }
         else {
             alert('Wrong Phone number or PIN');
