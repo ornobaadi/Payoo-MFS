@@ -12,7 +12,7 @@ document.getElementById('button-login')
         const pinNumber = document.getElementById('pin-number').value;
         console.log(phoneNumber, pinNumber)
 
-        // Step 4: Validate phone and pin
+        // Step 4: Validate phone and pin number
         // Not perfect way
         if (phoneNumber === '5' && pinNumber === '1234') {
             console.log('You are logged in');
